@@ -1,4 +1,4 @@
-const API = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000'
+const API = import.meta.env.VITE_API_URL || '/api'
 export const WS_URL = `${API.replace(/^http/, 'ws')}/ws/live`
 
 async function json(url, options) {
