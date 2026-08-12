@@ -82,6 +82,8 @@ body {
   border-radius: 8px;
   font-size: 0.9rem;
   cursor: pointer;
+  position: relative;
+  z-index: 100;
   border: 1px solid var(--border);
 }
 .btn-primary {
@@ -697,3 +699,5 @@ body {
   padding: 4px 8px;
 }
 .incident.selected { border-color: var(--accent); }
+
+
